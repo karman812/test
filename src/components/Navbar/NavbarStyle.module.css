@@ -1,0 +1,198 @@
+.nav {
+    position: absolute;
+    width: 211px;
+    height: 659px;
+    left: 0px;
+    top: 0px;
+    height: 80vh;
+    background: #062436;
+}
+
+.user {
+    width: 21px;
+    height: 21px;
+    left: 20px;
+}
+
+.logo {
+    position: absolute;
+    width: 113px;
+    height: 21px;
+    left: 20px;
+    top: 20px;
+}
+
+.vps {
+    width: 21.7px;
+    height: 21.7px;
+    left: 20px;
+
+
+}
+
+.domens {
+
+    width: 21px;
+    height: 20px;
+    left: 20px;
+
+}
+
+.support {
+    width: 23.75px;
+    height: 20.7px;
+    left: 20px;
+}
+
+.userText {
+
+    width: 65px;
+    height: 17px;
+    left: 57px;
+    margin-left: 18px;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.vpsText {
+
+    width: 27px;
+    height: 17px;
+    left: 57px;
+    margin-left: 18px;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.domensText {
+
+    width: 64px;
+    height: 17px;
+    left: 57px;
+    margin-left: 18px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.supportText {
+
+    width: 142px;
+    height: 17px;
+    left: 57px;
+    margin-left: 18px;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.supportCol {
+    position: absolute;
+    width: 211px;
+    height: 40px;
+    left: 0px;
+    top: 246px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.domensCol {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 211px;
+    height: 40px;
+    left: 0px;
+    top: 206px;
+    transition: 0.2s;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.vpsCol {
+    position: absolute;
+    width: 211px;
+    height: 40px;
+    left: 0px;
+    top: 166px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.userCol {
+    position: absolute;
+    width: 211px;
+    height: 40px;
+    left: 0px;
+    top: 126px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.supportCol:hover {
+    background: #15526A;
+    transition: 0.2s;
+    border-left: #3DBDF6 6px solid;
+}
+
+.domensCol:hover {
+    background: #15526A;
+    transition: 0.2s;
+    border-left: #3DBDF6 6px solid;
+}
+
+.vpsCol:hover {
+    background: #15526A;
+    transition: 0.2s;
+    border-left: #3DBDF6 6px solid;
+}
+
+.userCol:hover {
+    background: #15526A;
+    transition: 0.2s;
+    border-left: #3DBDF6 6px solid;
+}

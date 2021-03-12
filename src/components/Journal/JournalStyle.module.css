@@ -1,0 +1,129 @@
+.articles {
+
+    background-color: #E5E5E5;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    padding-top: 24px;
+    transition: 0.2s;
+}
+
+.articlesRow {
+    margin-top: 24px;
+    background-color: white;
+    overflow-y: scroll;
+    height: 73vh;
+}
+
+.headerRow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scrollCol {
+    display: flex;
+    justify-content: flex-end;
+    width: 15px;
+    height: 9px;
+}
+
+.articleItemCol img {
+    max-width: 100%;
+}
+
+.logoutCol {
+    margin-right: -15px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height */
+    cursor: pointer;
+    color: #7A8185;
+}
+
+.moneyCol {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    cursor: pointer;
+    /* identical to box height */
+
+
+    color: #7A8185;
+
+}
+
+.noticeCol {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.userNameCol {
+    margin-left: -20px;
+    cursor: pointer;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #7A8185;
+}
+
+.articleCol {
+    transition: 0.2s;
+    border-bottom: 2px solid #F7FAFB;
+    padding: 20px !important;
+}
+
+.articleCol:hover {
+    background-color: #F3FCFF;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+.articleColActive {
+    transition: 0.2s;
+    background-color: #F3FCFF;;
+}
+
+.articleItemColCol {
+    transition: 0.2s;
+}
+
+.pageName {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #062436;
+}
+
+.mainPageName {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #062436;
+}
+
+.pageNameCol {
+    margin: 16px auto 10px auto;
+}
+
+.mainPageNameCol {
+    padding-bottom: 16px;
+    border-bottom: 2px solid #F7FAFB;
+}
